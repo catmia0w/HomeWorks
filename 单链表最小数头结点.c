@@ -1,6 +1,6 @@
-//2����֪�ǿ�����������listָ���������Ĺ���Ϊ��data,next������дһ�㷨����������������ֵ��С���Ǹ�����Ƶ���������ǰ�档Ҫ�󣺲��ö��������µĽ�㡣
+//2．已知非空线性链表由list指出，链结点的构造为（data,next），请写一算法，将链表中数据域值最小的那个结点移到链表的最前面。要求：不得额外申请新的结点。
 //
-#include "stdafx.h"
+
 #include "stdio.h"
 #include "stdlib.h"
 
