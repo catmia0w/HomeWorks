@@ -1,4 +1,5 @@
-
+//1．已知线性表（a1，a2，a3 …an）按顺序存于内存，每个元素都是整数，试设计用最少时间把所有值为负数的元素移到全部非负值元素前边的算法：例：（x,-x,-x,x,x,-x …x）变为（-x,-x,-x…x,x,x）。
+//
 #include "stdafx.h"
 #include "stdio.h"
 #include "stdlib.h"
