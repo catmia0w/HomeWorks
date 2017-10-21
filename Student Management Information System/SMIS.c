@@ -32,6 +32,8 @@ int main() //主函数入口
 {
 	Initialize_SMIS();//初始化学生信息管理系统
 	Welcome_SMIS();//欢迎界面
+	L();
 	hello();
+	Exit_SMIS();// 退出程序，保存文件
 	return 0;
 }
