@@ -33,28 +33,7 @@ int main()           //主函数入口
     Student_Link Student = Creat_LinkList();    //初始化全局变量 单链表
 	Initialize_SMIS();                          //初始化学生信息管理系统
 	Welcome_SMIS();                             //欢迎界面
-	DisplayMenu_SMIS();
-	/*
-    int n = 0,m=0,i;
-	LinkList p, q;
-	q = H;
-	scanf("%d", &n);
-	for (i=0; i < n; i++)
-	{
-		p = (LinkList)malloc(sizeof(LNode));
-		scanf("%d", &p->data);
-		q->next = p;
-		q = q->next;
-		p->next = NULL;
-	}	
-	Find_Min(H);
-	p = H->next;
-	while (p)
-	{
-		printf("%d ", p->data);
-		p = p->next;
-	}
-	printf("\n");*/
+	DisplayMenu_SMIS(Student);
 	hello();
 	Exit_SMIS(Student);// 退出程序，保存文件
 	return 0;
