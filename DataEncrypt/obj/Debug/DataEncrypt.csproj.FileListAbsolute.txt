@@ -1,0 +1,10 @@
+C:\CSharpExperiment\DataEncrypt\DataEncrypt\bin\Debug\DataEncrypt.exe.config
+C:\CSharpExperiment\DataEncrypt\DataEncrypt\bin\Debug\DataEncrypt.exe
+C:\CSharpExperiment\DataEncrypt\DataEncrypt\bin\Debug\DataEncrypt.pdb
+C:\CSharpExperiment\DataEncrypt\DataEncrypt\obj\Debug\DataEncrypt.csprojResolveAssemblyReference.cache
+C:\CSharpExperiment\DataEncrypt\DataEncrypt\obj\Debug\DataEncrypt.FormMain.resources
+C:\CSharpExperiment\DataEncrypt\DataEncrypt\obj\Debug\DataEncrypt.Properties.Resources.resources
+C:\CSharpExperiment\DataEncrypt\DataEncrypt\obj\Debug\DataEncrypt.csproj.GenerateResource.Cache
+C:\CSharpExperiment\DataEncrypt\DataEncrypt\obj\Debug\DataEncrypt.csproj.CoreCompileInputs.cache
+C:\CSharpExperiment\DataEncrypt\DataEncrypt\obj\Debug\DataEncrypt.exe
+C:\CSharpExperiment\DataEncrypt\DataEncrypt\obj\Debug\DataEncrypt.pdb
