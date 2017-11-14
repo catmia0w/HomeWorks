@@ -25,3 +25,28 @@ int is_connected(MGraph *G,int i,int j)
     return(1);
   else return (0);
 }
+void CreateG(MGraph *G)
+{
+  int i,j,F,W,S,V;
+  i=0;
+  for(F=0;F<=1;F++)
+    for(W=0;W<=1;W++)
+      for(S=0;S<=1;S++)
+        for(V=0;V<=1;V++)
+          if(is_safe(F,W,S,V))
+          {
+            G->vertexs[i].farmer=F;
+            G->vertexs[i].wolf=W;
+            G->vertexs[i].sheep=S;
+            G->vertexs[i].vegrtable=V;
+            i++;
+          }
+  G->vertexNum=i;
+  for(i=0;i<G->vertexNum;i++)
+    for(j=0;j<G->vertexNum;i++)
+      if(is_connected(G,i,j))
+        G->edges[i][j]=G->edges[j][i]=1;
+  else 
+    G->edges[i][j]=G->edges[j][i]=0;
+  return;
+}
