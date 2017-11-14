@@ -50,3 +50,12 @@ void CreateG(MGraph *G)
     G->edges[i][j]=G->edges[j][i]=0;
   return;
 }
+void printf_path(MGraph *G,int u,int v)
+{
+  int k;
+  k=u;
+  while(K!=v)
+  {
+    printf("\n(%d,%d,%d,%d)",G->vertexs[k].farmer,G);
+  }
+}
