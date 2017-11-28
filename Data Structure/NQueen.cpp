@@ -92,6 +92,7 @@ int main()
 	printf("---------------------Welcome to Eight queen problems demo.-----------------------\n");
 	printf("请选择解决问题的方式：\n");
 	printf("1.数学解决\n");
+	printf("2.位运算解决\n");
 	cin>>i;
 	while (flag)
 	{
